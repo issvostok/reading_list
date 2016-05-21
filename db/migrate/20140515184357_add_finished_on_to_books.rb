@@ -1,4 +1,4 @@
-class AddFinishedOnToBooks < ActiveRecord::Migration[5.0]
+class AddFinishedOnToBooks < ActiveRecord::Migration
   def change
     add_column :books, :finished_on, :date
   end

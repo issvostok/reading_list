@@ -1,4 +1,4 @@
-class AddRatingToBooks < ActiveRecord::Migration[5.0]
+class AddRatingToBooks < ActiveRecord::Migration
   def change
     add_column :books, :rating, :integer
   end
